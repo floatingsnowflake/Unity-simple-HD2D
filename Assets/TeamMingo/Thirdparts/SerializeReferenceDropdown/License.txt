@@ -1,0 +1,3 @@
+No License from author.
+
+Github: https://github.com/AlexeyTaranov/SerializeReferenceDropdown

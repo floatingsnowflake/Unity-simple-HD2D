@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: da425bc336cdb45dc8e5ebf67e3622e4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1ec1c730553244fca1277bf4112f009f, type: 3}
+  importFlags: 1
+  pixelsPerUnit: 16
+  pivot: {x: 0.5, y: 0.5}
+  layersImporting:
+  - overrides: 0
+    pixelsPerUnit: 0
+    pivot: {x: 0, y: 0}
+    layer: Layer 1
+  animationsImporting: []
+  tilesetImporting: []

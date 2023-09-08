@@ -1,0 +1,56 @@
+fileFormatVersion: 2
+guid: dbf69459fa6804cfcae15a34237c5075
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1ec1c730553244fca1277bf4112f009f, type: 3}
+  importFlags: 2
+  pixelsPerUnit: 16
+  pivot: {x: 0.5, y: 0}
+  layersImporting: []
+  animationsImporting:
+  - overrides: 0
+    pixelsPerUnit: 16
+    pivot: {x: 0.5, y: 0.09677419}
+    tag: StandDown
+    loop: 1
+  - overrides: 0
+    pixelsPerUnit: 16
+    pivot: {x: 0.5, y: 0.09677419}
+    tag: StandUp
+    loop: 1
+  - overrides: 0
+    pixelsPerUnit: 16
+    pivot: {x: 0.5, y: 0.09677419}
+    tag: StandRight
+    loop: 1
+  - overrides: 0
+    pixelsPerUnit: 16
+    pivot: {x: 0.5, y: 0.09677419}
+    tag: StandLeft
+    loop: 1
+  - overrides: 0
+    pixelsPerUnit: 16
+    pivot: {x: 0.5, y: 0.09677419}
+    tag: WalkDown
+    loop: 1
+  - overrides: 0
+    pixelsPerUnit: 16
+    pivot: {x: 0.5, y: 0.09677419}
+    tag: WalkLeft
+    loop: 1
+  - overrides: 0
+    pixelsPerUnit: 16
+    pivot: {x: 0.5, y: 0.09677419}
+    tag: WalkRight
+    loop: 1
+  - overrides: 0
+    pixelsPerUnit: 16
+    pivot: {x: 0.5, y: 0.09677419}
+    tag: WalkUp
+    loop: 1
+  tilesetImporting: []

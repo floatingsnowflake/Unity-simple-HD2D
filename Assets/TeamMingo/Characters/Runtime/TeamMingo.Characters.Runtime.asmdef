@@ -1,0 +1,9 @@
+{
+  "name": "TeamMingo.Characters.Runtime",
+  "references": [
+    "TeamMingo.Entities.Runtime",
+    "TeamMingo.Input.Runtime",
+    "TeamMingo.Common.Runtime",
+    "Unity.InputSystem"
+  ]
+}

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a588ceb49564243b9af3598198a6e2, type: 3}
+  m_Name: RoadPreset
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  useRulesForEdgeTile: 0
+  useRulesForExtCornerTile: 0
+  useRulesForIntCornerTile: 0
+  useRulesForFillTile: 0
+  edgeTile: {fileID: 3521359920192978855, guid: 9073decb2eb1f2c47add5e1acd0a4603,
+    type: 3}
+  exteriorCornerTile: {fileID: 1792381045217195480, guid: e464ce5b9e8b7a445b897c96c57b547a,
+    type: 3}
+  interiorCornerTile: {fileID: 5594055184649860950, guid: ae4179ceee1d3dc4a89fe747d9b41b53,
+    type: 3}
+  fillTile: {fileID: 9047234143805307995, guid: 1545c91ae7eff1f4782f4d1949ed80cd,
+    type: 3}
+  edgeTileRotationOffset: {x: 0, y: 90, z: 0}
+  exteriorCornerTileRotationOffset: {x: 0, y: -90, z: 0}
+  interiorCornerTileRotationOffset: {x: 0, y: 90, z: 0}
+  fillTileRotationOffset: {x: 0, y: 0, z: 0}

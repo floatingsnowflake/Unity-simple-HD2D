@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8deb4a578201b2d4c9c8917ff6d7317a, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  version: version 3.0.0p1
+  text: "Thank you for purchasing TileWorldCreator version 3 and supporting a small
+    indie game studio!\n\n<b>Getting started</b> \nTo get started quickly head over
+    to the getting started guide or the getting started video.\n\n<b>Demo scenes</b>
+    \nYou can find all demo scenes in the folder: \n<i>TileWorldCreator / Demo </i>
+    \n\n"
+  documentationLink: https://doorfortyfour.github.io/TileWorldCreator
+  gettingStartedLink: https://doorfortyfour.github.io/TileWorldCreator/#/GettingStarted?id=quick-start
+  faqLink: https://doorfortyfour.github.io/TileWorldCreator/#/faq
+  videoGettingStartedLink: https://www.youtube.com/watch?v=cscc5_BeY58
+  websiteLink: https://www.tileworldcreator.com/
+  assetStoreLink: https://u3d.as/2Dz4
+  emailLink: mailto:mail@doorfortyfour.com
+  flowreactorLink: https://assetstore.unity.com/packages/tools/visual-scripting/flowreactor-high-level-visual-scripting-167519
+  databoxLink: https://assetstore.unity.com/packages/tools/utilities/databox-data-editor-save-solution-155189
+  changelog: 'Version 3.0.0p1
+
+    ---------------
+
+    Fixed issue: Ambiguous reference
+    between ''TWC.OdinSerializer.SerializationUtility'' and ''UnityEditor.SerializationUtility''
+
+
+
+    Version
+    3.0.0
+
+    -------------
+
+
+    Initial Release
+
+'

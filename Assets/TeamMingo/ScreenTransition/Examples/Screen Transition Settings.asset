@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b7849cf61fd460ab1b407318317e1e7, type: 3}
+  m_Name: Screen Transition Settings
+  m_EditorClassIdentifier: 
+  rendererData: {fileID: 0}
+  transitions:
+  - name: Fade
+    overridePrefab: {fileID: 0}
+    options:
+      rid: 2959314265063555109
+  - name: Blinds
+    overridePrefab: {fileID: 0}
+    options:
+      rid: 2959314265063555110
+  - name: Slide
+    overridePrefab: {fileID: 0}
+    options:
+      rid: 2959314265063555111
+  - name: Mask
+    overridePrefab: {fileID: 0}
+    options:
+      rid: 2959314265063555112
+  - name: TextureStep
+    overridePrefab: {fileID: 0}
+    options:
+      rid: 2959314265063555113
+  - name: RandoExample
+    overridePrefab: {fileID: 1631313315865492982, guid: 75e56bd5518ef47fa83bd44ca938f888, type: 3}
+    options:
+      rid: 2959314265063555113
+  references:
+    version: 2
+    RefIds:
+    - rid: 2959314265063555109
+      type: {class: ScreenTransitionFade/Options, ns: TeamMingo.ScreenTransition.Runtime.Transitions, asm: TeamMingo.ScreenTransition.Runtime}
+      data:
+        cameraTag: MainCamera
+        sortingLayer: 138974995
+        sortingOrder: 0
+        duration: 1
+        color: {r: 0, g: 0, b: 0, a: 1}
+        ease: 1
+        screenSprite: {fileID: 0}
+    - rid: 2959314265063555110
+      type: {class: ScreenTransitionBlinds/Options, ns: TeamMingo.ScreenTransition.Runtime.Transitions, asm: TeamMingo.ScreenTransition.Runtime}
+      data:
+        cameraTag: MainCamera
+        sortingLayer: 138974995
+        sortingOrder: 0
+        duration: 1
+        ease: 1
+        blinds: 16
+        direction: 1
+        color: {r: 0, g: 0, b: 0, a: 1}
+        screenSprite: {fileID: 0}
+    - rid: 2959314265063555111
+      type: {class: ScreenTransitionSlide/Options, ns: TeamMingo.ScreenTransition.Runtime.Transitions, asm: TeamMingo.ScreenTransition.Runtime}
+      data:
+        cameraTag: MainCamera
+        sortingLayer: 138974995
+        sortingOrder: 0
+        duration: 1
+        color: {r: 0.51410466, g: 0.6886792, b: 0.1786668, a: 1}
+        ease: 1
+        direction: 1
+        screenSprite: {fileID: 0}
+    - rid: 2959314265063555112
+      type: {class: ScreenTransitionMask/Options, ns: TeamMingo.ScreenTransition.Runtime.Transitions, asm: TeamMingo.ScreenTransition.Runtime}
+      data:
+        cameraTag: MainCamera
+        sortingLayer: 138974995
+        sortingOrder: 0
+        duration: 1
+        color: {r: 0, g: 0, b: 0, a: 1}
+        ease: 1
+        sprite: {fileID: 0}
+        scale: 20
+        screenSprite: {fileID: 0}
+        enableTrack: 0
+        trackTag: 
+    - rid: 2959314265063555113
+      type: {class: ScreenTransitionTextureStep/Options, ns: TeamMingo.ScreenTransition.Runtime.Transitions, asm: TeamMingo.ScreenTransition.Runtime}
+      data:
+        cameraTag: MainCamera
+        sortingLayer: 138974995
+        sortingOrder: 0
+        duration: 3
+        ease: 1
+        color: {r: 0, g: 0, b: 0, a: 1}
+        smoothing: 0.2
+        transitionSprite: {fileID: 21300000, guid: a7cf318a544a5443aa72b8e373eb9f98, type: 3}
+        screenTexture: {fileID: 0}

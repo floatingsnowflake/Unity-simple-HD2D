@@ -1,0 +1,6 @@
+{
+  "name": "TeamMingo.Entities.Editor",
+  "references": [
+    "TeamMingo.Entities.Runtime"
+  ]
+}

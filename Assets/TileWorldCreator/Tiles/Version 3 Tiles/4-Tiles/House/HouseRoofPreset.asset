@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a588ceb49564243b9af3598198a6e2, type: 3}
+  m_Name: HouseRoofPreset
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  useRulesForEdgeTile: 0
+  useRulesForExtCornerTile: 0
+  useRulesForIntCornerTile: 0
+  useRulesForFillTile: 0
+  edgeTile: {fileID: 1064373650127472665, guid: 6b7113af31037814e92567999943c857,
+    type: 3}
+  exteriorCornerTile: {fileID: 7610796513019048132, guid: 67bf7a4a08df21444bbf97066f73619d,
+    type: 3}
+  interiorCornerTile: {fileID: 1070278267984492865, guid: a706c2234117d3e41b2fbc5f20d995eb,
+    type: 3}
+  fillTile: {fileID: 8925780471835855106, guid: 42c1ea83d9a22db4c86b7bef1a5abdf9,
+    type: 3}
+  edgeTileRotationOffset: {x: 0, y: 90, z: 0}
+  exteriorCornerTileRotationOffset: {x: 0, y: 90, z: 0}
+  interiorCornerTileRotationOffset: {x: 0, y: 90, z: 0}
+  fillTileRotationOffset: {x: 0, y: 0, z: 0}
+  edgeTileScalingOffset: {x: 0, y: 0, z: 0}
+  exteriorCornerScalingOffset: {x: 0, y: 0, z: 0}
+  interiorCornerScalingOffset: {x: 0, y: 0, z: 0}
+  fillTileScalingOffset: {x: 0, y: 0, z: 0}

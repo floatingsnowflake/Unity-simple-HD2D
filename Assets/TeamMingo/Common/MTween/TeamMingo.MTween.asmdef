@@ -1,0 +1,6 @@
+{
+  "name": "TeamMingo.MTween",
+  "references": [
+    "TeamMingo.Common.Runtime"
+  ]
+}

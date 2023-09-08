@@ -1,0 +1,37 @@
+fileFormatVersion: 2
+guid: 8a081f28a3deb49da948c81cfec32cec
+importerOverride:
+  nativeImporterType: 2089858483
+  scriptedImporterType:
+    serializedVersion: 2
+    Hash: 5f02e079c767b6ede9ee91473c8e4732
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1ec1c730553244fca1277bf4112f009f, type: 3}
+  importFlags: 1
+  pixelsPerUnit: 8
+  pivot: {x: 0.5, y: 0.5}
+  layersImporting:
+  - overrides: 0
+    pixelsPerUnit: 8
+    pivot: {x: 0.5, y: 0.5}
+    layer: sky
+  - overrides: 0
+    pixelsPerUnit: 8
+    pivot: {x: 0.5, y: 0.5}
+    layer: tree
+  - overrides: 0
+    pixelsPerUnit: 8
+    pivot: {x: 0.5, y: 0.5}
+    layer: sun
+  - overrides: 0
+    pixelsPerUnit: 8
+    pivot: {x: 0.5, y: 0.5}
+    layer: mountain-2
+  animationsImporting: []
+  tilesetImporting: []

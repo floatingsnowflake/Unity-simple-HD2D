@@ -1,0 +1,149 @@
+Version 3.4
+---------------
+
+New: Added new modifiers provided by SparkAflame (Kevin Preece) - Overlap with, Select by Rule, Subtract From (https://github.com/SparkAflame/twc3-extensions)
+New: Added remove neighbours modifier. Removes neighbouring tiles inside a radius. Great for placing objects which shouldn't be too close to each other.
+New: Modified Dungeon demo scene. Added doors and chests.
+New: New dungeon gate & treasure chest 3d model 
+New: New wood and metal textures
+
+Bugfix: Fixed array out of bounds issue when removing a blueprint layer
+
+
+Version 3.3.1
+---------------
+
+Bugfix: Fixed issue where seed override would only work on first generator in a stack.
+
+
+Version 3.3.0
+---------------
+
+New: Added new option in the settings to choose if TWC should generate a random seed for every layer or not. Additionally every blueprint layer can also have a random seed override.
+
+
+Version 3.2.2
+---------------
+
+New: Added new roundabout demo (14_Roundabouts)
+
+Bugfix: Fixed issue were GetGeneratedBlueprintMap would not search for layer name string.
+Bugfix: Fixed issue were some modifiers would show a foldout even though there's nothing to show.
+
+
+Version 3.2.1
+-------------
+
+Bugfix: Fixed issue with Unity 2020.3.33 where blueprint layers weren't showing up correctly. Which lead to a broken editor/inspector.
+
+
+Version 3.2.0
+--------------
+New: Added option to the "build layers" for keeping prefab connection
+New: Added option to the "object instantiation layer" to place child objects from a random prefab list.
+
+Bugfix: Fixed AOT compilation error with Unity version 2021
+
+
+Version 3.1.2p1
+---------------
+Bugfix: Fixed error in Dungeon demo scene.
+Bugfix: Fixed error when using paint generator and resizing a map. New resized map would not keep old painted map.
+
+
+Version 3.1.2
+------------
+New: Added new option for setting shadow casting mode in build layers.
+New: Added new option to disable tile rotations on objects build layer.
+New: Added Undo/Redo functionality to paint modifier.
+
+Bugfix: Fixed issue where "assign layer" field in build layers would be resetted.
+Bugfix: Fixed issue where paint generator would not find a TileWorldCreator component and therefore draws an empty gui.
+
+Optimization: Further TWC Inspector editor loading improvements.
+
+
+Version 3.1.1
+------------
+Optimization: Improved TWC Inspector editor loading times.
+
+Bugfix: Fixed issue where TileWorldCreator would cause slow compilation time and slow play mode start time in Unity editor with larger projects.
+
+
+Version 3.1.0p2
+-------------
+WARNING! BREAKING CHANGES!!!
+This update contains possible breaking changes, please visit following link for more information:
+https://doorfortyfour.github.io/TileWorldCreator/#/update3.1.md
+
+New: Support for 6-Tiles tilesets! Create paths, roads, fences or similar structures
+New: Pathfinding generator
+New: Added automatic tile scaling based on cell size
+New: New 6-Tiles "Pipe" tileset
+New: New 6-Tiles "Road" tileset
+New: New 6-Tiles "Wooden Bridge" tileset
+New: New demo scene "Anno" like road building runtime editor
+New: New demo scene "Automatic ramp placement"
+New: New demo scene "Pathfinding"
+New: API: Added build layer priotization.
+ 
+Improved: Improved cell size workflow. Cell size is now equal to a Unity unit.
+Improved: Improved file size when saving blueprint stack
+
+Changed: Renamed existing 3D Tiles build layer to "3D 4-Tiles"
+Changed: Icons for tile presets
+
+Fixed: Fixed issue where object build layer would not clean up old objects when rebuilding.
+Fixed: Fixed AOT compilation issue. API .Net 4.X is required for all AOT platforms.
+Fixed: Fixed wrong object scaling when using global scale offset. 
+
+
+
+Version 3.0.3p2
+--------------
+Fixed: Fixed error: The name 'controlID' does not exist in the current context.
+Fixed: Deactive build layers would still be builded.
+
+Improved: Improved UX for forcing a complete map rebuild.
+Improved: Removed white cluster size grid on paint generator as it is too confusing.
+
+
+Version 3.0.3
+-------------
+Fixed:		Fixed Paint generator not working on MacOS.
+
+Changed:	Renamed cliff island layer 0 prefabs to match new namings.
+Changed:	Added two new cliff tile presets. (Water and Water only tiles)
+
+New:		Added cliff island with water tile demo scene
+
+
+Version 3.0.2
+---------------
+New:	Added new Checkerboard generator (thanks to: Max Hudetz)
+New:	Added new DotGrid generator (thanks to: Max Hudetz)
+New:	Added new overlap modifier. Returns overlapping tiles from two layers.
+New:	Added new demo scene which demonstrates how to mix two tilesets.
+
+Improved: Improved 09_Ramps demo scene
+
+Fixed:	Fixed issue where the paint generator updated the map on every mouse up.
+Fixed:	Fixed issue where the paint generator would force a complete rebuild instead of updating only painted tiles.
+Fixed:	Fixed error in custom action template
+
+Version 3.0.1
+-------------
+New:		New Texture generator added. Generate map based on any texture2D.
+New:		Added new demo scene which shows how to use the new Texture generator.
+
+Fixed:		Ambiguous reference between 'TWC.OdinSerializer.SerializationUtility' and 'UnityEditor.SerializationUtility'
+Fixed:		Fixed issue where it was not possible to open actions in blueprint stack. Resulted in freezed UI.
+Fixed:		Fixed issue where build layers won't get executed sometimes.
+
+Improved:	Improved Left-Ctrl key press detection to force a rebuild.
+
+
+Version 3.0.0
+-------------
+
+Initial Release

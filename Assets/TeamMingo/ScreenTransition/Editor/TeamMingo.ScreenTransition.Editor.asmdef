@@ -1,0 +1,20 @@
+{
+    "name": "TeamMingo.ScreenTransition.Editor",
+    "rootNamespace": "",
+    "references": [
+        "TeamMingo.ScreenTransition.Runtime",
+        "TeamMingo.Configs.Runtime",
+        "TeamMingo.Toolbox.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

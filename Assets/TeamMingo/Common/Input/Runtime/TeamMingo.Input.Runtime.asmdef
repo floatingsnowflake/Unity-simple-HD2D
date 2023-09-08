@@ -1,0 +1,6 @@
+﻿{
+  "name": "TeamMingo.Input.Runtime",
+  "references": [
+    "TeamMingo.Common.Runtime"
+  ]
+}

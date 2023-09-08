@@ -1,0 +1,45 @@
+fileFormatVersion: 2
+guid: 4cbb75eba10741f1968b369d2f4af020
+importerOverride:
+  nativeImporterType: 2089858483
+  scriptedImporterType:
+    serializedVersion: 2
+    Hash: 5f02e079c767b6ede9ee91473c8e4732
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1ec1c730553244fca1277bf4112f009f, type: 3}
+  importFlags: 2
+  pixelsPerUnit: 8
+  pivot: {x: 0.5, y: 0.5}
+  layersImporting:
+  - overrides: 0
+    pixelsPerUnit: 8
+    pivot: {x: 0.5, y: 0.5}
+    layer: Layer
+  animationsImporting:
+  - overrides: 0
+    pixelsPerUnit: 8
+    pivot: {x: 0.5, y: 0.5}
+    tag: Idle
+    loop: 1
+  - overrides: 0
+    pixelsPerUnit: 8
+    pivot: {x: 0.5, y: 0.5}
+    tag: Walk
+    loop: 1
+  - overrides: 0
+    pixelsPerUnit: 8
+    pivot: {x: 0.5, y: 0.5}
+    tag: Run
+    loop: 1
+  - overrides: 0
+    pixelsPerUnit: 8
+    pivot: {x: 0.5, y: 0.5}
+    tag: Sit
+    loop: 1
+  tilesetImporting: []
